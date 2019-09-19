@@ -1,0 +1,21 @@
+Below are some of the popular modules which are used in a Node js application
+
+Express framework – Express is a minimal and flexible Node js web application framework that provides a robust set of features for the web and mobile applications.
+Socket.io - Socket.IO enables real-time bidirectional event-based communication. This module is good for creation of chatting based applications.
+Jade - Jade is a high-performance template engine and implemented with JavaScript for node and browsers.
+MongoDB - The MongoDB Node.js driver is the officially supported node.js driver for MongoDB.
+Restify - restify is a lightweight framework, similar to express for building REST APIs
+Bluebird - Bluebird is a fully-featured promise library with a focus on innovative features and performance
+
+
+Using modules in Node.js
+In order to use modules in a Node.js application, they first need to be installed using the Node package manager.
+
+The below command line shows how a module "express" can be installed.
+
+Command is :---> npm install express
+
+
+The above command will download the necessary files which contain the "express modules" and take care of the installation as well
+Once the module has been installed, in order to use a module in a Node.js application, you need to use the 'require' keyword. 
+This keyword is a way that Node.js uses to incorporate the functionality of a module in an application.
