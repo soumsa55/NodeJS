@@ -1,0 +1,38 @@
+Publishing NPM(Node Package Manager) Modules
+One can publish their own module to their own Github repository.
+
+By publishing your module to a central location, you are then not burdened with having to install yourself on every machine that requires it.
+
+Instead, you can use the install command of npm and install your published npm module.
+
+The following steps need to be followed to publish your npm module
+
+Step 1) Create your repository on GitHub (an online code repository management tool). It can be used for hosting your code repositories.
+
+Step 2) You need to tell your local npm installation on who you are. Which means that we need to tell npm who is the author of this module, what is the email id and any company URL, which is available which needs to be associated with this id. All of these details will be added to your npm module when it is published.
+
+The below commands sets the name, email and URL of the author of the npm module.
+
+npm set init.author.name "Guru99."
+
+npm set init.author.email "guru99@gmail.com "
+
+npm set init.author.url http://Guru99.com
+
+Step 3) The next step is to login into npm using the credentials provided in the last step. To login, you need to use the below command
+
+npm login 
+Step 4) Initialize your package – The next step is to initialize the package to create the package.json file. This can be done by issuing the below command
+
+npm init
+When you issue the above command, you will be prompted for some questions. The most important one is the version number for your module.
+
+Step 5) Publish to GitHub – The next step is to publish your source files to GitHub. This can be done by running the below commands.
+
+git add.
+git commit -m "Initial release"
+git tag v0.0.1 
+git push origin master --tags
+Step 6) Publish your module – The final bit is to publish your module into the npm registry. This is done via the below command.
+
+npm publish
